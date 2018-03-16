@@ -46,3 +46,11 @@
 請勿對 test project 做任何修改。實際驗證時我們可能會用另一套 test project 來驗證您的 code
 
 測試方式，會在具備 4 cores 的 windows PC (intel i7), 用 visual studio 2015 開啟專案，執行三次 unit test (Run All), 三次都全數通過 (綠燈) 算是測試完成。
+
+
+# Quiz: 串流統計的測驗題
+
+補上 Engine 的實作，讓 Engine 可以即時的統計過去 {Period} 時間內，所有透過 {Input()} 輸入的數值總和。Engine 每秒執行的 Input() 次數可能高達上百萬次，請用有效率的架構與演算法，設計這個 Engine。
+計算的時間精確度，可以容許些許時間誤差為 {Interval}。
+
+請在有限的 CPU 運算能力，有限的儲存空間，並且能長時間執行的要求下，設計這 Engine。
